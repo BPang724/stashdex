@@ -95,7 +95,7 @@ The current project includes:
 * ESLint
 * Git-based version control
 
-React integration and the first Stashdex user interface are still being implemented.
+The initial React renderer and Stashdex application interface are now in place.
 
 Stashdex is **not yet ready for normal end-user installation or production use**.
 
