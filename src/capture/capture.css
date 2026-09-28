@@ -78,3 +78,19 @@ body {
   padding: 10px 12px;
   font: inherit;
 }
+
+.capture-panel button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.capture-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.capture-status {
+  margin: 0;
+  font-size: 13px;
+}

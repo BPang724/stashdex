@@ -27,6 +27,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Added draggable Capture icon behavior.
 - Added automatic snapping to the left or right screen edge.
 - Added side-aware Capture panel layout.
+- Added controlled URL and plain-text input to Quick Capture.
+- Added keyboard submission with the Enter key.
+- Added temporary capture handling for URL and text input.
+- Added automatic URL and plain-text type detection.
+- Added capture status feedback after submission.
 
 ### Changed
 
@@ -34,6 +39,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Updated the renderer Webpack configuration to support multiple window entry points.
 - Updated renderer source maps to work with the application's Content Security Policy.
 - Reworked the Capture window interaction around an edge-mounted draggable icon.
+- Updated the Capture form to reject empty submissions.
+- Updated the Save button to reflect whether valid input is available.
 
 ## [0.0.1] - 2026-09-27
 
